@@ -1,17 +1,19 @@
 ## ConfettiCannon
-[My widget description]
+Render Confetti Mendix!
 
 ## Features
-[feature highlights]
+Based on [react-native-confetti](https://github.com/cdvntr/react-native-confetti)
 
 ## Usage
-[step by step instructions]
+Add the widget to your project, configure it using widget properties, and place content widgets inside to be render under the confetti.
+
+You can control when the confetti is triggered using the expression for the Launch confetti property.
 
 ## Demo project
-[link to sandbox]
+None
 
 ## Issues, suggestions and feature requests
-[link to GitHub issues]
+https://github.com/jdiehl/mendix-confetti
 
 ## Development and contribution
 
@@ -21,4 +23,3 @@
     - the bundle will be included in a `dist` folder in the root directory of the project;
     - the bundle will be included in the `deployment` and `widgets` folder of the Mendix test project.
 
-[specify contribution]
