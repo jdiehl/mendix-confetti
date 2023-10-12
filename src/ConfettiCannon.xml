@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.confetticannon.ConfettiCannon" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Native"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Confetti Cannon</name>
+    <description>My widget description</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="Content">
+            <property key="content" type="widgets" required="false">
+                <caption>Content widgets</caption>
+                <description />
+            </property>
+        </propertyGroup>
+        <propertyGroup caption="Confetti">
+            <propertyGroup caption="Launch Confetti">
+                <property key="active" type="expression" defaultValue="true">
+                    <caption>Trigger the confetti</caption>
+                    <description />
+                    <returnType type="Boolean" />
+                </property>
+            </propertyGroup>
+            <propertyGroup caption="Confetti Options">
+                <property key="confettiCount" type="integer" defaultValue="100">
+                    <caption>Amount of confetti</caption>
+                    <description />
+                </property>
+                <property key="timeout" type="integer" defaultValue="30">
+                    <caption>Time between confetti (ms)</caption>
+                    <description />
+                </property>
+                <property key="untilStopped" type="boolean" defaultValue="false">
+                    <caption>Continuous confetti</caption>
+                    <description />
+                </property>
+                <property key="duration" type="integer" defaultValue="6000">
+                    <caption>Duration of confetti</caption>
+                    <description />
+                </property>
+                <property key="colors" type="string" required="false">
+                    <caption>Confetti colors</caption>
+                    <description>JSON Color Array. Default:
+    ["rgb(242.2, 102, 68.8)","rgb(255, 198.9, 91.8)","rgb(122.4, 198.9, 163.2)","rgb(76.5, 193.8, 216.7)","rgb(147.9, 99.4, 140.2)"]
+    </description>
+                </property>
+                <property key="size" type="integer" defaultValue="1">
+                    <caption>Confetti size</caption>
+                    <description />
+                </property>
+                <property key="bsize" type="integer" defaultValue="1">
+                    <caption>Confetti border radius size</caption>
+                    <description />
+                </property>
+            </propertyGroup>
+        </propertyGroup>
+    </properties>
+</widget>
